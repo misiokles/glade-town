@@ -1,0 +1,68 @@
+{
+	"glnahana" :
+	{
+		"class" : "glrunner",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "纳罕娜",
+			"biography" : "纳罕娜一直心灵手巧。作为一个孩子，她会收集自己可以用的金属和皮革的小型碎片，并为她的娃娃制作精美的微型盔甲套装。作为一名成年人，她通常可以在前线战斗并为她的士兵提供惊人的定制装甲。",
+			"specialty" :
+			{
+				"description" : "在防御术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：防御术",
+				"name" : "防御术"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/nahana/spec-small.png",
+			"specialtyLarge" : "glade/heroes/nahana/spec-large.png",
+			"large" : "glade/heroes/nahana/portrait-large.png",
+			"small" : "glade/heroes/nahana/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,168 @@
+{
+    "glcockatrice2":
+	{
+		"name" :
+		{
+			"plural" : "林妖",
+			"singular" : "林妖"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "glade",
+		"aiValue" : 1300,
+		"hasDoubleWeek": true,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 380
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 8
+		},
+		"defense" : 12,
+		"fightValue" : 1100,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/Dryad_green.def",
+			"map" : "glade/map/Dryad_green_s.def",
+			"iconSmall" : "glade/iconsSmall/green.bmp",
+			"iconLarge" : "glade/iconsBig/green.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "PPLIZAX.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}	
+        },
+	    "doubleWide" : true,
+        "growth" : 4,
+		"hitPoints" : 30,
+		"shots" : 24,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "GBASATTK.wav",
+			"defend": "GBASDFND.wav",
+			"killed": "GBASKILL.wav",
+			"move": "GBASMOVE.wav",
+			"wince": "GBASWNCE.wav"
+ 		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"additionalAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			},
+			"spellDispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 100,
+				"addInfo" : 1001
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_RETALIATION"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.shield", 
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.centaur"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.centaurCaptain"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 2 ]
+			}
+		]
+
+	}
+}

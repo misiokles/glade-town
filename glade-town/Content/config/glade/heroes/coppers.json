@@ -1,0 +1,66 @@
+{
+	"glcoppers" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "库珀斯",
+			"biography" : "三只手库珀斯总是能够将两块宝石揉在一起，凭空产生第三块宝石。这通常是通过当商人的注意力转移到别的地方的时候，消除刚卖给他的同一块宝石来实现的。",
+			"specialty" :
+			{
+				"description" : "为王国每天额外提供1宝石。",
+				"tooltip" : "每天+1宝石",
+				"name" : "+1宝石"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/coppers/spec-small.png",
+			"specialtyLarge" : "glade/heroes/coppers/spec-large.png",
+			"large" : "glade/heroes/coppers/portrait-large.png",
+			"small" : "glade/heroes/coppers/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

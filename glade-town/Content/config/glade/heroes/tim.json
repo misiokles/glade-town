@@ -1,0 +1,59 @@
+{
+	"gltim" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "蒂姆",
+			"biography" : "蒂姆被称为公猪骑士是有原因的。一次他无意中遇到一队野猪在战场上惴惴不安，他通常会对每一场冲突的双方造成严重伤害。",
+			"specialty" :
+			{
+				"description" : "达到2级以后提高野猪或狂猪的攻击力与防御力。",
+				"tooltip" : "生物强化：野猪",
+				"name" : "野猪"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/tim/spec-small.png",
+			"specialtyLarge" : "glade/heroes/tim/spec-large.png",
+			"large" : "glade/heroes/tim/portrait-large.png",
+			"small" : "glade/heroes/tim/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 7
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 7
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		"specialty" : {
+			"creature" : "glboar1"
+		}			
+	}
+}

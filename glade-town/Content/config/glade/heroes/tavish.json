@@ -1,0 +1,60 @@
+{
+	"gltavish" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "塔维什",
+			"biography" : "塔维什在丛林中被强盗逼入绝境，他的全家在穿行树林时都被杀害。当地的风魔出手相救，此后他越来越了解它们的交流方式，并开始花时间与他的“羊群”守卫森林小径。",
+			"specialty" :
+			{
+				"description" : "达到3级以后提高魔眼或厄运之眼的攻击力与防御力。",
+				"tooltip" : "生物强化：魔眼",
+				"name" : "魔眼"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/tavish/spec-small.png",
+			"specialtyLarge" : "glade/heroes/tavish/spec-large.png",
+			"large" : "glade/heroes/tavish/portrait-large.png",
+			"small" : "glade/heroes/tavish/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 7,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"creature" : "glpazuzu1"
+		}			
+	}
+}
+

@@ -1,0 +1,59 @@
+{
+	"glmuggins" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "马金斯",
+			"biography" : "马金斯决定帮助地鼠逃离阿维利，因为他不能容忍那里对他人民的不公平待遇。他发现地鼠一族被视为奴隶，所以他倾力帮助他们找到新的家园。如今，他可以在他的新森林里找到他的蘑菇产地，与他的同伴安居乐业。据说他总是有不错的运气，没有什么缘由。",
+			"specialty" :
+			{
+				"description" : "达到1级以后提高地鼠或魔法地鼠的攻击力与防御力。",
+				"tooltip" : "生物强化：地鼠",
+				"name" : "地鼠"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/muggins/spec-small.png",
+			"specialtyLarge" : "glade/heroes/muggins/spec-large.png",
+			"large" : "glade/heroes/muggins/portrait-large.png",
+			"small" : "glade/heroes/muggins/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "glmouse1",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "glmouse2",
+				"max" : 17,
+				"min" : 10
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"creature" : "glmouse1"
+		}		
+	}
+}

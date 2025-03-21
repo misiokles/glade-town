@@ -1,0 +1,107 @@
+{
+	"glhalcyon1":
+	{
+		"name" :
+		{
+			"plural" : "风魔",
+			"singular" : "风魔"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 8
+		},
+		"faction" : "glade",
+		"aiValue" : 859,
+		"attack" : 14,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			 "max" : 14,
+			 "min" : 12
+		},
+		"defense" : 11,
+		"fightValue" : 753,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/pazuzu1.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "glade/map/pazuzu1mini.def",
+			"iconSmall" : "glade/iconsSmall/pazuzu1s.bmp",
+			"iconLarge" : "glade/iconsBig/pazuzu1l.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+		"upgrades":
+		[
+			"glhalcyon2"
+		],
+		"sound" :
+		{
+			"attack": "ROCCATTK.wav",
+			"defend": "ROCCDFND.wav",
+			"killed": "ROCCKILL.wav",
+			"move": "ROCCMOVE.wav",
+			"wince": "ROCCWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"flies" :
+			{
+				"type" : "FLYING",
+				
+			},
+                        "petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 20
+			}
+
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			}
+		]
+	}
+}

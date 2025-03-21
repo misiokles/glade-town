@@ -1,0 +1,72 @@
+{
+	"glzarm" :
+	{
+		"class" : "glshaper",
+		"texts" :
+		{
+			"name" : "扎姆",
+			"biography" : "扎姆是一个可怕的男人，只要看着他，就能让人在恐惧的虚弱中萎缩。",
+
+			"specialty" :
+			{
+				"description" : "使用虚弱无力魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：虚弱无力",
+				"name" : "虚弱无力"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/zarm/spec-small.png",
+			"specialtyLarge" : "glade/heroes/zarm/spec-large.png",
+			"large" : "glade/heroes/zarm/portrait-large.png",
+			"small" : "glade/heroes/zarm/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}		
+	}
+}
+

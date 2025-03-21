@@ -1,0 +1,120 @@
+{
+	"glpazuzu1":
+	{
+		"name" :
+		{
+			"plural" : "魔眼",
+			"singular" : "魔眼"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "glade",
+		"aiValue" : 192,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 4
+		},
+		"defense" : 5,
+		"fightValue" : 175,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/C167.def",
+			"map" : "glade/map/AVWC167.def",
+			"iconSmall" : "glade/iconsSmall/eve1.bmp",
+			"iconLarge" : "glade/iconsBig/eve1.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+	       },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"glpazuzu2"
+		],
+		"sound" :
+		{
+			"attack": "glade/S167ATTK.wav",
+			"defend" : "glade/S167DFND.wav",
+			"killed" : "glade/S167KILL.wav",
+			"move" : "glade/S167MOVE.wav",
+			"wince" : "glade/S167WNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+					"canFly" : 
+			{
+				"type" : "FLYING"
+			}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"addInfo" : 1000, 
+					"subtype" : "spell.disruptingRay", 
+					"type" : "SPELL_AFTER_ATTACK" 
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+	}
+}

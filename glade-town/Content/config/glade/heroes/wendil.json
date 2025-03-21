@@ -1,0 +1,74 @@
+{
+	"glwendil" : 
+	{
+		"class" : "glshaper",
+		"texts" :
+		{
+			"name" : "文迪尔",
+			"biography" : "文迪尔是当地的一位巫师，他曾在禁猎地建过自己的家，最近他从隐居中出山，帮助禁猎地阻挡海湾的敌人。",
+			"specialty" :
+			{
+				"description" : "在神秘术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：神秘术",
+				"name" : "神秘术"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/wendil/spec-small.png",
+			"specialtyLarge" : "glade/heroes/wendil/spec-large.png",
+			"large" : "glade/heroes/wendil/portrait-large.png",
+			"small" : "glade/heroes/wendil/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"visions"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,70 @@
+{
+	"gltana" :
+	{
+		"class" : "glshaper",
+		"texts" :
+		{
+			"name" : "坦娜",
+			"biography" : "坦娜记得自己一直在跑。当掌握了她所需要的魔法，以逃避她在家乡的奴役生活，她很快与禁猎地的居民找到了最后的安全之处。",
+			"specialty" :
+			{
+				"description" : "使用攻击加速魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：攻击加速",
+				"name" : "攻击加速"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/tana/spec-small.png",
+			"specialtyLarge" : "glade/heroes/tana/spec-large.png",
+			"large" : "glade/heroes/tana/portrait-large.png",
+			"small" : "glade/heroes/tana/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}			
+	}
+}

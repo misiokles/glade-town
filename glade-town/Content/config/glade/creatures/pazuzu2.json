@@ -1,0 +1,122 @@
+{
+	"glpazuzu2":
+	{
+		"name" :
+		{
+			"plural" : "厄运之眼",
+			"singular" : "厄运之眼"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "glade",
+		"aiValue" : 247,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 4
+		},
+		"defense" : 5,
+		"fightValue" : 240,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/C168.def",
+			"map" : "glade/map/AVWC168.def",
+			"iconSmall" : "glade/iconsSmall/eve2.bmp",
+			"iconLarge" : "glade/iconsBig/eve2.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+	       },
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "glade/S168ATTK.wav",
+			"defend": "glade/S168DFND.wav",
+			"killed": "glade/S168KILL.wav",
+			"move": "glade/S168MOVE.wav",
+			"wince": "glade/S168WNCE.wav"
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+					"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+      "castMisfortune" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misfortune",
+				"val" : 100
+			}
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"addInfo" : 1000, 
+					"subtype" : "spell.disruptingRay", 
+					"type" : "SPELL_AFTER_ATTACK" 
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+	}
+}

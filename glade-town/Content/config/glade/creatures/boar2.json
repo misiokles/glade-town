@@ -1,0 +1,120 @@
+{
+	"glboar2":
+	{
+		"name" :
+		{
+			"plural" : "狂猪",
+			"singular" : "狂猪"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "glade",
+		"aiValue" : 156,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 163,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/boar2.def",
+			"map" : "glade/map/boar2mini.def",
+			"iconSmall" : "glade/iconsSmall/boar2s.bmp",
+			"iconLarge" : "glade/iconsBig/boar2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 8,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "HGWRATTK.wav",
+			"defend": "HGWRDFND.wav",
+			"killed": "HGWRKILL.wav",
+			"move": "HGWRMOVE.wav",
+			"wince": "HGWRWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"shield effect" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee", //shield effect//seems that there is no subtype
+				"val" : 25
+			},
+		  "JOUSTING" : 
+			{
+				"type": "JOUSTING"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			}
+		]
+	}
+}

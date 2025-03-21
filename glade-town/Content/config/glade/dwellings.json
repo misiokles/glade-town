@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"gldwelling1" : {
+				"name" : "宝藏丛林",
+				"creatures" : [[ "glmouse1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-1.def",
+						"mask" : [ "VVBB", "BBBB", "BBAB" ],
+					}
+				}
+			},
+			"gldwelling2" : {
+				"name" : "地穴",
+				"creatures" : [[ "glboar1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-2.def",
+						"mask" : [ "VVVB", "VVBB", "VVAB" ],
+
+					}
+				}
+			},
+			"gldwelling3" : {
+				"name" : "魔法师小屋",
+				"creatures" : [[ "glpazuzu1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "glade/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VBB", "VBA" ],
+					}
+				}
+			},
+			"gldwelling4" : {
+				"name" : "灵石花园",
+				"creatures" : [[ "glcockatrice1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "VAB" ],
+					}
+				}
+			},
+			"gldwelling5" : {
+				"name" : "风魔巢穴",
+				"creatures" : [[ "glhalcyon1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "VAB" ],
+					}
+				}
+			},
+			"gldwelling6" : {
+				"name" : "蛇蜥穴",
+				"creatures" : [[ "glserpentine1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-6.def",
+						"mask" : [ "VVBB", "BBBB", "BBBA" ],
+					}
+				}
+			},
+			"gldwelling7" : {
+				"name" : "乌根森林",
+				"creatures" : [[ "gltreant1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "glade/adventure-map/dwelling-7.def",
+						"mask" : [ "VBBB", "BBBB", "BBAB" ],
+					}
+				}
+			}
+		}		
+	}
+}

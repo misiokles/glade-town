@@ -1,0 +1,110 @@
+{
+	"glade" : {
+		"alignment" : "neutral",
+		"boat" : "boatCastle",
+		"creatureBackground" : { "120px" : "glade/creature-bg-120px.bmp", "130px" : "glade/creature-bg-130px.bmp" },
+		"name" : "禁猎地",
+		"nativeTerrain" : "grass",
+		"town" :
+		{
+			"musicTheme" : ["music/glade/theme"],
+		        "defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "glade/town-screen/background",
+			"guildWindow": "glade/town-screen/mage-guild",
+			"hallBackground" : "TPTHBKFR",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageguild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "dock" ] ],
+				[ [ "totempole" ], [ "rainbow1" ], [ "hordeHalflings", "hordeHalflingsUpgr" ] ],
+				[ [ "dwelling1", "dwellingUpgrade1" ], [ "dwelling2", "dwellingUpgrade2" ], [ "dwelling3", "dwellingUpgrade3"], [ "dwelling4", "dwellingUpgrade4" ] ],
+				[ [ "dwelling5", "dwellingUpgrade5" ], [ "dwelling6", "dwellingUpgrade6" ], [ "dwelling7", "dwellingUpgrade7" ],  ]
+			],
+			"creatures" :
+			[
+				[ "glmouse1", "glmouse2" ],
+				[ "glboar1", "glboar2" ],
+				[ "glpazuzu1", "glpazuzu2" ],
+				[ "glcockatrice1", "glcockatrice2" ],
+				[ "glhalcyon1", "glhalcyon2" ],
+				[ "glserpentine1", "glserpentine2" ],
+				[ "gltreant1", "gltreant2" ]
+			],
+			"moatAbility":"gladeMoat",
+			"horde" : [ 0 , -1 ],
+			"mageGuild" : 5,
+			"primaryResource" : "gems",
+			"buildingsIcons" : "glade/town-hall.def",
+			"icons" : 
+			{
+				"village" : {
+					"normal" : {"small" : "glade/icons/hall-small.bmp", "large" : "glade/icons/hall-big.bmp" },
+					"built"  : {"small" : "glade/icons/hall-builded-small.bmp", "large" : "glade/icons/hall-builded-big.bmp" }
+				},
+				"fort" : {
+					"normal" : {"small" : "glade/icons/fort-small.bmp", "large" : "glade/icons/fort-big.bmp" },
+					"built"  : {"small" : "glade/icons/fort-builded-small.bmp", "large" : "glade/icons/fort-builded-big.bmp" }
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "glade/adventure-map/town-capitol.def" },
+					"castle" : { "animation" : "glade/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "glade/adventure-map/town-castle.def" },
+					"fort" : { "animation" : "glade/adventure-map/town-castle.def" },
+					"village" : { "animation" : "glade/adventure-map/town-village.def" }
+				}
+			},
+			"names" :
+			[
+				"桃源城",
+				"汉沃城",
+				"雅林城",
+				"飞流城",
+				"风港城",
+				"银瀑城",
+				"春瀑城",
+				"宝泽城",
+				"垂柳城",
+				"纽林城",
+				"灵风城",
+				"广众城",
+				"温溪城",
+				"广寒城",
+				"广庭城",
+				"莱伊城"
+			],
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 4,
+				"druid"        : 4,
+				"alchemist"    : 4,
+				"wizard"       : 4,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 4,
+				"necromancer"  : 4,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 4,
+				"battlemage"   : 4,
+				"beastmaster"  : 4,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 4,
+				"glshaper"      : 5,
+				"glrunner"      : 5
+			}
+		}
+	}
+}

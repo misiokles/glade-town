@@ -1,0 +1,160 @@
+{
+	"gltreant2":
+	{
+		"name" :
+		{
+			"plural" : "古棘树精",
+			"singular" : "古棘树精"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "glade",
+		"aiValue" : 3870,
+		"attack" : 19,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 5000,
+			"gems" : 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 28,
+		"fightValue" : 5571,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/treant2.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "glade/map/treant2mini.def",
+			"iconSmall" : "glade/iconsSmall/treant2s.bmp",
+			"iconLarge" : "glade/iconsBig/treant2l.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "TREEATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "TREEKILL.wav",
+			"move": "TREEMOVE.wav",
+			"wince": "TREEWNCE.wav" 
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+			"casts bind after attack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",	//72 
+				"val" : 100,
+			},
+			"mindImmunity":
+			{	
+				"type" : "MIND_IMMUNITY"
+			},
+			"+10defense when defending" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 10
+			},
+			"easy to burn-firewall" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireWall"	//13
+			},
+			"easy to burn-fireball" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireball"	//21
+			},
+			"easy to burn-inferno" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.inferno"	//22
+			},
+			"easy to burn-armageddon" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.armageddon"	//26
+			},
+			"easy to burn-fireshield" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "spell.fireShield"	//29
+			}
+		},	
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"type" : "HP_REGENERATION" 
+				},
+				"values" : [ 5,10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "earth",
+					"type" : "SPELL_DAMAGE_REDUCTION"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+	}
+}

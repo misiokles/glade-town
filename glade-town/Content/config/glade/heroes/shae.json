@@ -1,0 +1,62 @@
+{
+	"glshae" :
+	{
+		"class" : "glshaper",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "纱衣",
+			"biography" : "纱衣是一个成就斐然的女德鲁伊，但战争从来不是她的长处。她经常感受到旁人的轻视，所以她决定搞个大新闻。不过，她很快被部落的其他成员诬陷，最后被送进监狱。年轻的德鲁伊通过魔法逃脱，尽可能远离阿维利。",
+			"specialty" :
+			{
+				"description" : "达到4级以后提高木妖或林妖的攻击力与防御力。",
+				"tooltip" : "生物强化：木妖",
+				"name" : "木妖"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/shae/spec-small.png",
+			"specialtyLarge" : "glade/heroes/shae/spec-large.png",
+			"large" : "glade/heroes/shae/portrait-large.png",
+			"small" : "glade/heroes/shae/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "glcockatrice1",
+				"max" : 8,
+				"min" : 6
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"creature" : "glcockatrice1"
+		}			
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"glzach" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "扎琪",
+			"biography" : "扎琪一直对音乐有着浓厚的兴趣，据说他随身携带的陶醉之笛能够让最疯狂的蛇蜥变成温顺的状态。",
+			"specialty" :
+			{
+				"description" : "达到6级以后提高异蛇蜥或王蛇蜥的攻击力与防御力。",
+				"tooltip" : "生物强化：异蛇蜥",
+				"name" : "异蛇蜥"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/zach/spec-small.png",
+			"specialtyLarge" : "glade/heroes/zach/spec-large.png",
+			"large" : "glade/heroes/zach/portrait-large.png",
+			"small" : "glade/heroes/zach/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 12,
+				"min" : 7
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		"specialty" : {
+			"creature" : "glserpentine1"
+		}		
+	}
+}

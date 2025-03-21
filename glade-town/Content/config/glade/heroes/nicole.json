@@ -1,0 +1,62 @@
+{
+	"glnicole" : 
+	{
+		"class" : "glrunner",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "妮可",
+			"biography" : "妮可曾经是一个精灵守卫的副手。在与同伴长期巡视森林的同时，她发现了敌人的踪迹，并及时向上级报告。但是，三天过去了，敌军无处可见。妮可因传播虚假信息而受到惩罚。然而，到了第四天，精灵们被她发现并通报的那支敌军击败。妮可厌倦了被无能者包围其间，离开了阿维利，开始了新的生活。",
+			"specialty" :
+			{
+				"description" : "在侦察术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：侦察术",
+				"name" : "侦察术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/nicole/spec-small.png",
+			"specialtyLarge" : "glade/heroes/nicole/spec-large.png",
+			"large" : "glade/heroes/nicole/portrait-large.png",
+			"small" : "glade/heroes/nicole/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"scouting" : {
+					"type" : "SIGHT_RADIUS",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

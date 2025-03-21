@@ -1,0 +1,129 @@
+{
+	"glmouse2":
+	{
+		"name" :
+		{
+			"plural" : "魔法地鼠",
+			"singular" : "魔法地鼠"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "glade",
+		"aiValue" : 57,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 65
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 2,
+		"fightValue" : 62,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/mouse2.def",
+			"map" : "glade/map/mouse2mini.def",
+			"iconSmall" : "glade/iconsSmall/mouse2s.bmp",
+			"iconLarge" : "glade/iconsBig/mouse2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"attackClimaxFrame" : 8,
+				"projectile": "CPRZEAX.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+			
+		},
+
+		"growth" : 15,
+		"hitPoints" : 5,
+		"horde" : 10,
+              	"level" : 1,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :   //something here is wrong, I have no idea what.
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"always lucky" :
+			{
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"no melee penalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin", //min
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax", //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			}
+		]
+	}
+}

@@ -1,0 +1,347 @@
+{
+	"glade" :
+	{
+		"town" :
+		{
+			"structures" : 
+			{
+				"mageguild1" :
+				{
+					"animation" : "glade/town-screen/buildings/00-TBcvmage.def",
+					"area" : "glade/town-screen/buildings-area/00-TZcvmage.bmp",
+					"border" : "glade/town-screen/buildings-border/00-TOcvmage.bmp",
+					"x"  :0,
+					"y"  :0,
+					"z"  :4
+				},
+				"mageGuild2" :
+				{
+					"animation" : "glade/town-screen/buildings/01-TBcvmag2.def",
+					"area" : "glade/town-screen/buildings-area/01-TZcvmag2.bmp",
+					"border" : "glade/town-screen/buildings-border/01-TOcvmag2.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"mageGuild3" :
+				{
+					"animation" : "glade/town-screen/buildings/02-TBcvmag3.def",
+					"area" : "glade/town-screen/buildings-area/02-TZcvmag3.bmp",
+					"border" : "glade/town-screen/buildings-border/02-TOcvmag3.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"mageGuild4" :
+				{
+					"animation" : "glade/town-screen/buildings/03-TBcvmag4.def",
+					"area" : "glade/town-screen/buildings-area/03-TZcvmag4.bmp",
+					"border" : "glade/town-screen/buildings-border/03-TOcvmag4.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"mageGuild5" :
+				{	
+					"animation" : "glade/town-screen/buildings/04-TBcvmag5.def",
+					"area" : "glade/town-screen/buildings-area/04-TZcvmag5.bmp",
+					"border" : "glade/town-screen/buildings-border/04-TOcvmag5.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"tavern" :
+				{
+					"animation" : "glade/town-screen/buildings/05-TBcvtvrn.def",
+					"area" : "glade/town-screen/buildings-area/05-TZcvtvrn.bmp",
+					"border" : "glade/town-screen/buildings-border/05-TOcvtvrn.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dock" :
+				{
+					"animation" : "glade/town-screen/buildings/06-TBcvdock.def",
+					"area" : "glade/town-screen/buildings-area/06-TZcvdock.bmp",
+					"border" : "glade/town-screen/buildings-border/06-TOcvdock.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"fort" :
+				{
+					"animation" : "glade/town-screen/buildings/07-TBcvcstl.def",
+					"area" : "glade/town-screen/buildings-area/07-TZcvcstl.bmp",
+					"border" : "glade/town-screen/buildings-border/07-TOcvcstl.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1
+				},
+				"citadel" :
+				{
+					"animation" : "glade/town-screen/buildings/08-TBcvcas2.def",
+					"area" : "glade/town-screen/buildings-area/08-TZcvcas2.bmp",
+					"border" : "glade/town-screen/buildings-border/08-TOcvcas2.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1
+				},
+				"castle" :
+				{
+					"animation" : "glade/town-screen/buildings/09-TBcvcas3.def",
+					"area" : "glade/town-screen/buildings-area/09-TZcvcas3.bmp",
+					"border" : "glade/town-screen/buildings-border/09-TOcvcas3.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1
+				},
+				"villageHall" :
+				{
+					"animation" : "glade/town-screen/buildings/10-TBcvhall.def",
+					"area" : "glade/town-screen/buildings-area/10-TZcvhall.bmp",
+					"border" : "glade/town-screen/buildings-border/10-TOcvhall.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
+				},
+				"townHall" :
+				{
+					"animation" : "glade/town-screen/buildings/11-TBcvhal2.def",
+					"area" : "glade/town-screen/buildings-area/11-TZcvhal2.bmp",
+					"border" : "glade/town-screen/buildings-border/11-TOcvhal2.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
+				},
+				"cityHall" :
+				{
+					"animation" : "glade/town-screen/buildings/12-TBcvhal3.def",
+					"area" : "glade/town-screen/buildings-area/12-TZcvhal3.bmp",
+					"border" : "glade/town-screen/buildings-border/12-TOcvhal3.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
+				},
+				"capitol" :
+				{
+					"animation" : "glade/town-screen/buildings/13-TBcvhal4.def",
+					"area" : "glade/town-screen/buildings-area/13-TZcvhal4.bmp",
+					"border" : "glade/town-screen/buildings-border/13-TOcvhal4.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
+				},
+				"marketplace" :
+				{
+					"animation" : "glade/town-screen/buildings/14-TBcvmark.def",
+					"area" : "glade/town-screen/buildings-area/14-TZcvmark.bmp",
+					"border" : "glade/town-screen/buildings-border/14-TOcvmark.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3
+				},
+				"resourceSilo" :
+				{
+					"animation" : "glade/town-screen/buildings/15-TBcvsilo.def",
+					"area" : "glade/town-screen/buildings-area/15-TZcvsilo.bmp",
+					"border" : "glade/town-screen/buildings-border/15-TOcvsilo.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"blacksmith" :
+				{
+					"animation" : "glade/town-screen/buildings/16-TBcvblak.def",
+					"area" : "glade/town-screen/buildings-area/16-TZcvblak.bmp",
+					"border" : "glade/town-screen/buildings-border/16-TOcvblak.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"rainbow1" :
+				{
+					"animation" : "glade/town-screen/buildings/17-TBcvspec.def",
+					"area" : "glade/town-screen/buildings-area/17-TZcvspec.bmp",
+					"border" : "glade/town-screen/buildings-border/17-TOcvspec.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 4
+				},
+				"hordeHalflings" :
+				{
+					"animation" : "glade/town-screen/buildings/18-TBcvhrd1.def",
+					"area" : "glade/town-screen/buildings-area/18-TZcvhrd1.bmp",
+					"border" : "glade/town-screen/buildings-border/18-TOcvhrd1.bmp",
+					"x" : 0,
+					"y" : 0,
+					"hidden" : true
+				},
+				"hordeHalflingsUpgr" :
+				{
+					"animation" : "glade/town-screen/buildings/19-TBcvhrd2.def",
+					"area" : "glade/town-screen/buildings-area/19-TZcvhrd2.bmp",
+					"border" : "glade/town-screen/buildings-border/19-TOcvhrd2.bmp",
+					"x" : 0,
+					"y" : 0,
+					"hidden" : true
+				},
+				"boat" :
+				{
+					"animation" : "glade/town-screen/buildings/20-TBcvboat.def",
+					"area" : "glade/town-screen/buildings-area/20-TZcvboat.bmp",
+					"border" : "glade/town-screen/buildings-border/20-TOcvboat.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 3,
+					"hidden" : true
+				},
+				"totempole" : //maybe not?
+				{
+					"animation" : "glade/town-screen/buildings/21-TBcvext6.def",
+					"area" : "glade/town-screen/buildings-area/21-TZcvext6.bmp",
+					"border" : "glade/town-screen/buildings-border/21-TOcvext6.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"grail" :
+				{
+					"animation" : "glade/town-screen/buildings/26-TBcvholy.def",
+					"area" : "glade/town-screen/buildings-area/26-TZcvholy.bmp",
+					"border" : "glade/town-screen/buildings-border/26-TOcvholy.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwelling1" :
+				{
+					"animation" : "glade/town-screen/buildings/30-TBcvdw_0.def",
+					"area" : "glade/town-screen/buildings-area/30-TZcvdw_0.bmp",
+					"border" : "glade/town-screen/buildings-border/30-TOcvdw_0.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwelling2" :
+				{
+					"animation" : "glade/town-screen/buildings/31-TBcvdw_1.def",
+					"area" : "glade/town-screen/buildings-area/31-TZcvdw_1.bmp",
+					"border" : "glade/town-screen/buildings-border/31-TOcvdw_1.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwelling3" :
+				{
+					"animation" : "glade/town-screen/buildings/32-TBcvdw_2.def",
+					"area" : "glade/town-screen/buildings-area/32-TZcvdw_2.bmp",
+					"border" : "glade/town-screen/buildings-border/32-TOcvdw_2.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 20
+				},
+				"dwelling4" :
+				{
+					"animation" : "glade/town-screen/buildings/33-TBcvdw_3.def",
+					"area" : "glade/town-screen/buildings-area/33-TZcvdw_3.bmp",
+					"border" : "glade/town-screen/buildings-border/33-TOcvdw_3.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwelling5" :
+				{
+					"animation" : "glade/town-screen/buildings/34-TBcvdw_4.def",
+					"area" : "glade/town-screen/buildings-area/34-TZcvdw_4.bmp",
+					"border" : "glade/town-screen/buildings-border/34-TOcvdw_4.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+
+				},
+				"dwelling6" :
+				{
+					"animation" : "glade/town-screen/buildings/35-TBcvdw_5.def",
+					"area" : "glade/town-screen/buildings-area/35-TZcvdw_5.bmp",
+					"border" : "glade/town-screen/buildings-border/35-TOcvdw_5.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2,
+				},
+				"dwelling7" :
+				{
+					"animation" : "glade/town-screen/buildings/36-TBcvdw_6.def",
+					"area" : "glade/town-screen/buildings-area/36-TZcvdw_6.bmp",
+					"border" : "glade/town-screen/buildings-border/36-TOcvdw_6.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade1" :
+				{
+					"animation" : "glade/town-screen/buildings/37-TBcvup_0.def",
+					"area" : "glade/town-screen/buildings-area/37-TZcvup_0.bmp",
+					"border" : "glade/town-screen/buildings-border/37-outline.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade2" :
+				{
+					"animation" : "glade/town-screen/buildings/38-TBcvup_1.def",
+					"area" : "glade/town-screen/buildings-area/38-TZcvup_1.bmp",
+					"border" : "glade/town-screen/buildings-border/38-TOcvup_1.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade3" :
+				{
+					"animation" : "glade/town-screen/buildings/39-TBcvup_2.def",
+					"area" : "glade/town-screen/buildings-area/39-TZcvup_2.bmp",
+					"border" : "glade/town-screen/buildings-border/39-TOcvup_2.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 21
+				},
+				"dwellingUpgrade4" :
+				{
+					"animation" : "glade/town-screen/buildings/40-TBcvup_3.def",
+					"area" : "glade/town-screen/buildings-area/40-TZcvup_3.bmp",
+					"border" : "glade/town-screen/buildings-border/40-TOcvup_3.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade5" :
+				{
+					"animation" : "glade/town-screen/buildings/41-TBcvup_4.def",
+					"area" : "glade/town-screen/buildings-area/41-TZcvup_4.bmp",
+					"border" : "glade/town-screen/buildings-border/41-TOcvup_4.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade6" :
+				{
+					"animation" : "glade/town-screen/buildings/42-TBcvup_5.def",
+					"area" : "glade/town-screen/buildings-area/42-TZcvup_5.bmp",
+					"border" : "glade/town-screen/buildings-border/42-TOcvup_5.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade7" :
+				{
+					"animation" : "glade/town-screen/buildings/43-TBcvup_6.def",
+					"area" : "glade/town-screen/buildings-area/43-TZcvup_6.bmp",
+					"border" : "glade/town-screen/buildings-border/43-TOcvup_6.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				}
+			}
+		}
+	}
+}
+

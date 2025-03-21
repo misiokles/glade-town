@@ -1,0 +1,54 @@
+{
+	"glliam" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "利安",
+			"biography" : "利安已经掌握了驯服密林中许多种飞行野兽的方法。他的召唤通常是敌人在人头落地之前听到的最后声音。",
+			"specialty" :
+			{
+				"description" : "达到5级以后提高风魔或风魔王的攻击力与防御力。",
+				"tooltip" : "生物强化：风魔",
+				"name" : "风魔"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/liam/spec-small.png",
+			"specialtyLarge" : "glade/heroes/liam/spec-large.png",
+			"large" : "glade/heroes/liam/portrait-large.png",
+			"small" : "glade/heroes/liam/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glhalcyon1",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "glhalcyon1"
+		}		
+	}
+}
+

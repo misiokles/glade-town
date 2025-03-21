@@ -1,0 +1,73 @@
+{
+	"glmeila" :
+	{
+		"class" : "glshaper",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "美丽亚",
+			"biography" : "禁猎地变得越发炎热，美丽亚一直厌恶热度，并且自私地接受魔法训练，以此来控制她身边的温度。这导致她有时无法预料地将人冻死。",
+			"specialty" :
+			{
+				"description" : "使用霹雳寒冰魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：霹雳寒冰",
+				"name" : "霹雳寒冰"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/meila/spec-small.png",
+			"specialtyLarge" : "glade/heroes/meila/spec-large.png",
+			"large" : "glade/heroes/meila/portrait-large.png",
+			"small" : "glade/heroes/meila/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "glmouse1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "glboar1",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "glpazuzu1",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
