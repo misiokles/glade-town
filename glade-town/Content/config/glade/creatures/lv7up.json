@@ -1,0 +1,90 @@
+{
+  "gllv7up": {
+    "name": {
+      "plural": "Ancient Treants",
+      "singular": "Ancient Treant"
+    },
+    "advMapAmount": {
+      "max": 8,
+      "min": 3
+    },
+    "faction": "glade",
+    "aiValue": 7168,
+    "attack": 23,
+    "cost": {
+      "gold": 3500,
+      "gems": 2
+    },
+    "damage": {
+      "max": 50,
+      "min": 35
+    },
+    "defense": 28,
+    "fightValue": 5571,
+    "graphics": {
+    "animation" : "glade/battle/creatures/lv7up.def",
+    "map" : "glade/map/lv7up.def",
+	"iconSmall" : "glade/iconsSmall/lv7up.bmp",
+	"iconLarge" : "glade/iconsBig/lv7up.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.5,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile": {
+        "projectile": "PCYCLBX.DEF",
+        "attackClimaxFrame": 7,
+        "offset": {
+          "upperX": 38,
+          "upperY": -65,
+          "middleX": 36,
+          "middleY": -59,
+          "lowerX": 21,
+          "lowerY": -50
+        },
+        "frameAngles": [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ]
+      }
+    },
+    "doubleWide": true,
+    "growth": 1,
+    "hitPoints": 300,
+    "level": 7,
+    "shots": 12,
+    "sound": {
+      "attack": "glade/S176ATTK.wav",
+      "defend": "glade/S176DFND.wav",
+      "killed": "glade/S176KILL.wav",
+      "move": "glade/S176MOVE.wav",
+      "wince": "glade/S176WNCE.wav"
+    },
+    "speed": 10,
+    "abilities" :
+		{
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"canShootWalls" :
+			{
+				"type" : "CATAPULT",
+				"subtype" : "spell.cyclopsShot"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+	     	"stun" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stunAbility",
+				"val" : 35,
+				"addInfo" : [2,2]
+			}
+	    }
+	}
+}

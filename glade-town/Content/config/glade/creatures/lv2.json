@@ -1,0 +1,67 @@
+{
+	"gllv2":
+	{
+		"name" :
+		{
+			"plural" : "Cliff Crawlers",
+			"singular" : "Cliff Crawler"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "glade",
+		"aiValue" : 227,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 110
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 233,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv2.def",
+			"map" : "glade/map/lv2.def",
+			"iconSmall" : "glade/iconsSmall/lv2.bmp",
+			"iconLarge" : "glade/iconsBig/lv2.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 8,
+		"hitPoints" : 15,
+		"level" : 2,
+		"upgrades":
+		[
+			"gllv2up"
+		],
+		"sound" :
+		{
+			"attack": "glade/S165ATTK.wav",
+			"defend": "glade/S165DFND.wav",
+			"killed": "glade/S165KILL.wav",
+			"move": "glade/S165MOVE.wav",
+			"wince": "glade/S165WNCE.wav"
+		},
+		"speed" : 6,
+	    "abilities" : {
+			"immuneToArrow" : {
+				"subtype" : "damageTypeRanged",
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"val" : 20
+			}
+		}
+	}
+}

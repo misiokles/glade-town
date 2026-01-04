@@ -1,0 +1,74 @@
+{
+	"gllv2n":
+	{
+		"name" :
+		{
+			"plural" : "Cave Boars",
+			"singular" : "Cave Boar"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "glade",
+		"aiValue" : 146,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 110
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 154,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv2n.def",
+			"map" : "glade/map/lv2n.def",
+			"iconSmall" : "glade/iconsSmall/lv2n.bmp",
+			"iconLarge" : "glade/iconsBig/lv2n.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 8,
+		"hitPoints" : 15,
+		"level" : 2,
+		"upgrades":
+		[
+			"gllv2nup"
+		],
+		"sound" :
+		{
+			"attack": "GWRDATTK.wav",
+			"defend": "GWRDDFND.wav",
+			"killed": "GWRDKILL.wav",
+			"move": "GWRDMOVE.wav",
+			"wince": "GWRDWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"immuneToArrow" :
+			{
+				"subtype" : "damageTypeRanged",
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"val" : 15
+			},
+		  "JOUSTING" : 
+			{
+				"type": "JOUSTING",
+				"val": 5
+			}
+		}
+	}
+}

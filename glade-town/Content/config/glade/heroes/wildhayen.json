@@ -1,0 +1,71 @@
+{
+	"24wildhayen" : 
+	{
+		"class" : "glshaper",
+		"texts" :
+		{
+			"name" : "Wildhayen",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "Casts Cure with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Cure",
+				"name" : "Cure"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/wildhayen/spec-small.png",
+			"specialtyLarge" : "glade/heroes/wildhayen/spec-large.png",
+			"large" : "glade/heroes/wildhayen/portrait-large.png",
+			"small" : "glade/heroes/wildhayen/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"cure"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"landMine" : {
+					"subtype" : "cure",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

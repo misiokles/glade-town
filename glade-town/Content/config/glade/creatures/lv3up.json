@@ -1,0 +1,71 @@
+{
+	"gllv3up":
+	{
+		"name" :
+		{
+			"plural" : "Misfortune Eyes",
+			"singular" : "Misfortune Eye"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "glade",
+		"aiValue" : 359,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 4
+		},
+		"defense" : 5,
+		"fightValue" : 357,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv3up.def",
+			"map" : "glade/map/lv3up.def",
+			"iconSmall" : "glade/iconsSmall/lv3up.bmp",
+			"iconLarge" : "glade/iconsBig/lv3up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+	       },
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "glade/S168ATTK.wav",
+			"defend": "glade/S168DFND.wav",
+			"killed": "glade/S168KILL.wav",
+			"move": "glade/S168MOVE.wav",
+			"wince": "glade/S168WNCE.wav"
+		},
+		"speed" : 12,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+            "spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "misfortune",
+				"val" : 35,
+				"addInfo" : [
+					2,
+					2
+				]
+			}
+		}
+	}
+}

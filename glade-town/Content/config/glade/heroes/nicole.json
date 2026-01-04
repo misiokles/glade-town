@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "妮可",
-			"biography" : "妮可曾经是一个精灵守卫的副手。在与同伴长期巡视森林的同时，她发现了敌人的踪迹，并及时向上级报告。但是，三天过去了，敌军无处可见。妮可因传播虚假信息而受到惩罚。然而，到了第四天，精灵们被她发现并通报的那支敌军击败。妮可厌倦了被无能者包围其间，离开了阿维利，开始了新的生活。",
+			"name" : "Nicole",
+			"biography" : "Nicole used to be the deputy of an elven guard. While out on patrol of the forest with her long time companions, she discovered an enemy plot and promptly reported it to her superior. However, three days had passed and the enemy forces were nowhere to be seen. Nicole was punished for spreading disinformation. However on the fourth day, the elves defeated by the previously scouted enemy force. Nicole, tired of being surrounded by incompetence, left Avlee and started a new life.",
 			"specialty" :
 			{
-				"description" : "在侦察术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：侦察术",
-				"name" : "侦察术"
+				"description" : "Receives a 5% per level bonus to Scouting skill percentage.",
+				"tooltip" : "Secondary skill bonus: Scouting",
+				"name" : "Scouting"
 			}
 		},
 		"images" :
@@ -25,36 +25,42 @@
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
-				"level" : "advanced",
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
 				"skill" : "scouting"
 			}
 		],
 		"specialty" : {
 			"bonuses" : {
-				"scouting" : {
+				"sight" : {
 					"type" : "SIGHT_RADIUS",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 20,
+						"stepSize" : 6
+					}
 				}
 			}
 		}

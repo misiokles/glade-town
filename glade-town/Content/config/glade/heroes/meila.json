@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "美丽亚",
-			"biography" : "禁猎地变得越发炎热，美丽亚一直厌恶热度，并且自私地接受魔法训练，以此来控制她身边的温度。这导致她有时无法预料地将人冻死。",
+			"name" : "Meila",
+			"biography" : "It gets hot in The Glade, Meila had always detested the heat and selfishly trained in magic as a way to control the temperature around her. This lead to an unforeseen mastery at freezing people to death.",
 			"specialty" :
 			{
-				"description" : "使用霹雳寒冰魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：霹雳寒冰",
-				"name" : "霹雳寒冰"
+				"description" : "Casts Ice Bolt with expert effects but not expert range.",
+				"tooltip" : "Spell bonus: Ice Bolt",
+				"name" : "Ice Bolt"
 			}
 		},
 
@@ -31,17 +31,17 @@
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}

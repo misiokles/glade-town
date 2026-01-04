@@ -2,29 +2,29 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"gldwelling1" : {
-				"name" : "宝藏丛林",
-				"creatures" : [[ "glmouse1" ]],
+				"name" : "Fortune Jungle",
+				"creatures" : [[ "gllv1" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-1.def",
-						"mask" : [ "VVBB", "BBBB", "BBAB" ],
+						"mask" : [ "VVVV", "VVBB", "VVBA" ],
 					}
 				}
 			},
 			"gldwelling2" : {
-				"name" : "地穴",
-				"creatures" : [[ "glboar1" ]],
+				"name" : "Cave",
+				"creatures" : [[ "gllv2" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-2.def",
-						"mask" : [ "VVVB", "VVBB", "VVAB" ],
+						"mask" : [ "VVVV", "VVBB", "VVBA" ],
 
 					}
 				}
 			},
 			"gldwelling3" : {
-				"name" : "魔法师小屋",
-				"creatures" : [[ "glpazuzu1" ]],
+				"name" : "Aviary",
+				"creatures" : [[ "gllv3" ]],
 				"templates" : {
 					"default" : {	
 						"animation" : "glade/adventure-map/dwelling-3.def",
@@ -33,8 +33,8 @@
 				}
 			},
 			"gldwelling4" : {
-				"name" : "灵石花园",
-				"creatures" : [[ "glcockatrice1" ]],
+				"name" : "Stone Garden",
+				"creatures" : [[ "gllv4" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-4.def",
@@ -43,35 +43,35 @@
 				}
 			},
 			"gldwelling5" : {
-				"name" : "风魔巢穴",
-				"creatures" : [[ "glhalcyon1" ]],
+				"name" : "Hatchery",
+				"creatures" : [[ "gllv5" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "VAB" ],
+						"mask" : [ "VVV", "VBB", "VBA" ],
 					}
 				}
 			},
 			"gldwelling6" : {
-				"name" : "蛇蜥穴",
-				"creatures" : [[ "glserpentine1" ]],
+				"name" : "Dream Garden",
+				"creatures" : [[ "gllv6" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-6.def",
-						"mask" : [ "VVBB", "BBBB", "BBBA" ],
+						"mask" : [ "VVVV", "VVBB", "VVBA" ],
 					}
 				}
 			},
 			"gldwelling7" : {
-				"name" : "乌根森林",
-				"creatures" : [[ "gltreant1" ]],
+				"name" : "Blackroot Forest",
+				"creatures" : [[ "gllv7" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-7.def",
-						"mask" : [ "VBBB", "BBBB", "BBAB" ],
+						"mask" : [ "VVVV", "VVBB", "VVAB" ],
 					}
 				}
 			}

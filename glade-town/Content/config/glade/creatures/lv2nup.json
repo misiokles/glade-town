@@ -1,0 +1,70 @@
+{
+	"gllv2nup":
+	{
+		"name" :
+		{
+			"plural" : "Wild Boars",
+			"singular" : "Wild Boar"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "glade",
+		"aiValue" : 156,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 7,
+		"fightValue" : 163,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv2nup.def",
+			"map" : "glade/map/lv2nup.def",
+			"iconSmall" : "glade/iconsSmall/lv2nup.bmp",
+			"iconLarge" : "glade/iconsBig/lv2nup.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 8,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "HGWRATTK.wav",
+			"defend": "HGWRDFND.wav",
+			"killed": "HGWRKILL.wav",
+			"move": "HGWRMOVE.wav",
+			"wince": "HGWRWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"immuneToArrow" :
+			{
+				"subtype" : "damageTypeRanged",
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"val" : 15
+			},
+		  "JOUSTING" : 
+			{
+				"type": "JOUSTING",
+				"val": 5
+			}
+		}
+	}
+}

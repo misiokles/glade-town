@@ -4,13 +4,13 @@
 		"class" : "glrunner",
 		"texts" :
 		{
-			"name" : "扎琪",
-			"biography" : "扎琪一直对音乐有着浓厚的兴趣，据说他随身携带的陶醉之笛能够让最疯狂的蛇蜥变成温顺的状态。",
+			"name" : "Zach",
+			"biography" : "Zach had always had an affinity towards music, and it was said that the enchanted flute he carried with him at all times had the power to render even the most frenzied Serpentine into a docile state.",
 			"specialty" :
 			{
-				"description" : "达到6级以后提高异蛇蜥或王蛇蜥的攻击力与防御力。",
-				"tooltip" : "生物强化：异蛇蜥",
-				"name" : "异蛇蜥"
+				"description" : "Receives a 5% per level bonus to Diplomacy skill percentage when surrendering.",
+				"tooltip" : "Skill Bonus: Diplomacy",
+				"name" : "Diplomacy"
 			}
 		},
 
@@ -25,35 +25,42 @@
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 12,
 				"min" : 7
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
-				"skill" : "diplomacy"
+				"skill" : "leadership"
 			},
 			{
 				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "diplomacy"
 			}
 		],
+
 		"specialty" : {
-			"creature" : "glserpentine1"
-		}		
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
 	}
 }

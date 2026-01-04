@@ -1,0 +1,103 @@
+{
+	"gllv4":
+	{
+		"name" :
+		{
+			"plural" : "Druids",
+			"singular" : "Druid"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "glade",
+		"aiValue" : 479,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 370
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 6
+		},
+		"defense" : 10,
+		"fightValue" : 469,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv4.def",
+			"map" : "glade/map/lv4.def",
+			"iconSmall" : "glade/iconsSmall/lv4.bmp",
+			"iconLarge" : "glade/iconsBig/lv4.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.70,
+				"attack" : 1.25,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "glade/battle/creatures/projectile/shot207.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			},
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"level" : 4,
+		"upgrades":
+		[
+			"gllv4up"
+		],
+		"shots" : 8,
+		"sound" :
+		{
+			"attack" : "glade/S203ATTK.wav",
+			"defend" : "glade/S203DFND.wav",
+			"killed" : "glade/S203KILL.wav",
+			"move" : "glade/S203MOVE.wav",
+			"wince" : "glade/S203WNCE.wav",
+ 			"shoot" : "glade/S203SHOT.wav"                    
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"healLife" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "shield",
+				"val" : 2
+			},
+			"healPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "shield",
+				"val" : 50
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 35,
+				"addInfo" : [1,0,1]
+			}
+		}
+	}
+}

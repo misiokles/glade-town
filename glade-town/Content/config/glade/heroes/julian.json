@@ -1,0 +1,57 @@
+{
+	"12julian" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Julian",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Silver Pegasus or Silver Unicorns by 1 and their Attack and Defense skills by 5% for 5 levels (rounded up).",
+				"tooltip" : "Creature bonus: Silver Pegasu",
+				"name" : "Silver Pegasus"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/julian/spec-small.png",
+			"specialtyLarge" : "glade/heroes/julian/spec-large.png",
+			"large" : "glade/heroes/julian/portrait-large.png",
+			"small" : "glade/heroes/julian/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "gllv5"
+		}
+	}
+}

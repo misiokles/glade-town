@@ -1,14 +1,16 @@
 {
 	"glade" : {
 		"alignment" : "neutral",
-		"boat" : "boatCastle",
 		"creatureBackground" : { "120px" : "glade/creature-bg-120px.bmp", "130px" : "glade/creature-bg-130px.bmp" },
-		"name" : "禁猎地",
+		"name" : "Glade",
+		"boat" : "boatCastle",
 		"nativeTerrain" : "grass",
 		"town" :
 		{
-			"musicTheme" : ["music/glade/theme"],
-		        "defaultTavern" : 5,
+			"musicTheme" : [
+				"music/glade/theme"
+			],
+		    "defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
 			"townBackground": "glade/town-screen/background",
@@ -17,22 +19,22 @@
 			"hallSlots":
 			[
 				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageguild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "dock" ] ],
-				[ [ "totempole" ], [ "rainbow1" ], [ "hordeHalflings", "hordeHalflingsUpgr" ] ],
-				[ [ "dwelling1", "dwellingUpgrade1" ], [ "dwelling2", "dwellingUpgrade2" ], [ "dwelling3", "dwellingUpgrade3"], [ "dwelling4", "dwellingUpgrade4" ] ],
-				[ [ "dwelling5", "dwellingUpgrade5" ], [ "dwelling6", "dwellingUpgrade6" ], [ "dwelling7", "dwellingUpgrade7" ],  ]
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
+				[ [ "special2" ], [ "special1" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3"], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ],  ]
 			],
 			"creatures" :
 			[
-				[ "glmouse1", "glmouse2" ],
-				[ "glboar1", "glboar2" ],
-				[ "glpazuzu1", "glpazuzu2" ],
-				[ "glcockatrice1", "glcockatrice2" ],
-				[ "glhalcyon1", "glhalcyon2" ],
-				[ "glserpentine1", "glserpentine2" ],
-				[ "gltreant1", "gltreant2" ]
+				[ "gllv1", "gllv1up" ],
+				[ "gllv2", "gllv2up" ],
+				[ "gllv3", "gllv3up" ],
+				[ "gllv4", "gllv4up" ],
+				[ "gllv5", "gllv5up" ],
+				[ "gllv6", "gllv6up" ],
+				[ "gllv7", "gllv7up" ]
 			],
-			"moatAbility":"gladeMoat",
+			"moatAbility" : "castleMoat",
 			"horde" : [ 0 , -1 ],
 			"mageGuild" : 5,
 			"primaryResource" : "gems",
@@ -57,30 +59,30 @@
 				},
 				"templates" : {
 					"capitol" : { "animation" : "glade/adventure-map/town-capitol.def" },
-					"castle" : { "animation" : "glade/adventure-map/town-castle.def" },
-					"citadel" : { "animation" : "glade/adventure-map/town-castle.def" },
-					"fort" : { "animation" : "glade/adventure-map/town-castle.def" },
+					"castle" :  { "animation" : "glade/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "glade/adventure-map/town-citadel.def" },
+					"fort" :    { "animation" : "glade/adventure-map/town-fort.def" },
 					"village" : { "animation" : "glade/adventure-map/town-village.def" }
 				}
 			},
 			"names" :
 			[
-				"桃源城",
-				"汉沃城",
-				"雅林城",
-				"飞流城",
-				"风港城",
-				"银瀑城",
-				"春瀑城",
-				"宝泽城",
-				"垂柳城",
-				"纽林城",
-				"灵风城",
-				"广众城",
-				"温溪城",
-				"广寒城",
-				"广庭城",
-				"莱伊城"
+				"Xanadu",
+				"Hangval",
+				"Jalina",
+				"Firios",
+				"Windhave",
+				"Bathiere",
+				"Spring Falls",
+				"Gem Moor",
+				"Willow",
+				"New Forest",
+				"New Elfwind",
+				"Wenlan",
+				"Vintyl",
+				"Sylina",
+				"Hallin",
+				"Rael"
 			],
 			"tavern" :
 			{

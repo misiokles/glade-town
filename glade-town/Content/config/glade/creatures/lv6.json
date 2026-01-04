@@ -1,0 +1,73 @@
+{
+	"gllv6":
+	{
+		"name" :
+		{
+			"plural" : "Fairy Bears",
+			"singular" : "Fairy Bear"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "glade",
+		"aiValue" : 2107,
+		"attack" : 16,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 16
+		},
+		"defense" : 16,
+		"fightValue" : 1768,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv6.DEF",
+			"map" : "glade/map/lv6.def",
+			"iconSmall" : "glade/iconsSmall/lv6.bmp",
+			"iconLarge" : "glade/iconsBig/lv6.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		"upgrades":
+		[
+			"gllv6up"
+		],
+		"sound" :
+		{
+			"attack" : "glade/S207ATTK.wav",
+			"defend" : "glade/S207DFND.wav",
+			"killed" : "glade/S207KILL.wav",
+			"move" : "OGREMOVE.wav",
+			"wince" : "glade/S207WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"regenerates" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 30
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 10
+			}
+		}
+	}
+}

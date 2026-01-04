@@ -4,13 +4,13 @@
 		"class" : "glshaper",
 		"texts" :
 		{
-			"name" : "文迪尔",
-			"biography" : "文迪尔是当地的一位巫师，他曾在禁猎地建过自己的家，最近他从隐居中出山，帮助禁猎地阻挡海湾的敌人。",
+			"name" : "Wendil",
+			"biography" : "Wendil, a local Wizard who had made his home in The Glade has recent come down from his seclusion to help keep it's enemies at bay.",
 			"specialty" :
 			{
-				"description" : "在神秘术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：神秘术",
-				"name" : "神秘术"
+				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
+				"tooltip" : "Secondary skill bonus: Mysticism",
+				"name" : "Mysticism"
 			}
 		},
 
@@ -21,26 +21,21 @@
 			"large" : "glade/heroes/wendil/portrait-large.png",
 			"small" : "glade/heroes/wendil/portrait-small.png"
 		},
-
-		"spellbook" :
-		[
-			"visions"
-		],
-
+		"spellbook": [ "magicArrow" ],
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
@@ -58,16 +53,8 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"mysticism" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_REGENERATION",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
-		}
+			"secondary" : "mysticism"
+		}		
 	}
 }
 

@@ -1,0 +1,99 @@
+{
+	"gllv4up":
+	{
+		"name" :
+		{
+			"plural" : "High Druids",
+			"singular" : "High Druid"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "glade",
+		"aiValue" : 744,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 420
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 6
+		},
+		"defense" : 11,
+		"fightValue" : 730,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv4up.def",
+			"map" : "glade/map/lv4up.def",
+			"iconSmall" : "glade/iconsSmall/lv4up.bmp",
+			"iconLarge" : "glade/iconsBig/lv4up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.70,
+				"attack" : 1.25,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "glade/battle/creatures/projectile/shot208.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			},
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+		"shots" : 12,
+		"sound" :
+		{
+			"attack" : "glade/S204ATTK.wav",
+			"defend" : "glade/S204DFND.wav",
+			"killed" : "glade/S204KILL.wav",
+			"move" : "glade/S204MOVE.wav",
+			"wince" : "glade/S204WNCE.wav",
+			"shoot" : "glade/S204SHOT.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"healLife" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "shield",
+				"val" : 2
+			},
+			"healPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "shield",
+				"val" : 50
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 35,
+				"addInfo" : [1,0,1]
+			}
+		}
+	}
+}

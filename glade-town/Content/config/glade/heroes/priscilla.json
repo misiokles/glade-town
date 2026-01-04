@@ -4,13 +4,13 @@
 		"class" : "glshaper",
 		"texts" :
 		{
-			"name" : "普利西拉",
-			"biography" : "有一天，普利西拉神奇地出现在禁猎地，她的躯干上有一个巨大的伤口。当地的治疗师挽救了她的生命，但她的记忆完全丧失了。她知道的唯一事情就是魔法对她来说很自然。",
+			"name" : "Priscilla",
+			"biography" : "One day Priscilla mysteriously appeared unconcious just outside of The Glade with a massive gash across her torso. The local healers were able to save her life but her memories are completely lost to her. The only thing she does know is that magic comes naturally to her.",
 			"specialty" :
 			{
-				"description" : "在魔力技能上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：魔力",
-				"name" : "魔力"
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Secondary skill bonus: Sorcery",
+				"name" : "Sorcery"
 			}
 		},
 
@@ -22,25 +22,21 @@
 			"small" : "glade/heroes/priscilla/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
-			"magicArrow"
-		],
-
+		"spellbook": [ "magicArrow" ],
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
@@ -58,16 +54,8 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"sorcery" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPELL_DAMAGE",
-					"subtype" : "spellSchool.any",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
-		}
+			"secondary" : "sorcery"
+		}		
 	}
 }
+

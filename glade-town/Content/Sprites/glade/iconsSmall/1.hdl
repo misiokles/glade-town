@@ -1,0 +1,11 @@
+[Data]
+Type=2
+Shadow Type=2
+Groups Number=1
+Group0=lv1.bmp|lv1up.bmp|lv2.bmp|lv2n.bmp|lv2nup.bmp|lv2up.bmp|lv3.bmp|lv3up.bmp|lv4.bmp|lv4up.bmp|lv5.bmp|lv5up.bmp|lv6.bmp|lv6up.bmp|lv7.bmp|lv7up.bmp|pathfinder.bmp|
+Shadow0=Shadow\lv1.bmp|Shadow\lv1up.bmp|Shadow\lv2.bmp|Shadow\lv2n.bmp|Shadow\lv2nup.bmp|Shadow\lv2up.bmp|Shadow\lv3.bmp|Shadow\lv3up.bmp|Shadow\lv4.bmp|Shadow\lv4up.bmp|Shadow\lv5.bmp|Shadow\lv5up.bmp|Shadow\lv6.bmp|Shadow\lv6up.bmp|Shadow\lv7.bmp|Shadow\lv7up.bmp|Shadow\pathfinder.bmp|
+Generate Selection=0
+ColorsBox.Colors=$FFFF00|$FF96FF|$0A0B0D|$271513|$FF00FF|$00FFFF|$FF00B4|$00FF00|
+ShadowColorsBox.Colors=$FFFF00|$FF96FF|$0A0B0D|$271513|$FF00FF|$00FFFF|$FF00B4|$00FF00|
+ColorsBox.ColorChecks=1|0|0|0|0|0|0|0|0|
+ShadowColorsBox.ColorChecks=1|1|1|1|1|1|1|1|

@@ -1,0 +1,54 @@
+{
+	"27karen" :
+	{
+		"class" : "glrunner",
+		"texts" :
+		{
+			"name" : "Karen",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "Increases Speed of any Treants or Ancient Treants by 1 and their Attack and Defense skills by 5% for 7 levels (rounded up).",
+				"tooltip" : "Creature bonus: Treants",
+				"name" : "Shadow Treants"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/karen/spec-small.png",
+			"specialtyLarge" : "glade/heroes/karen/spec-large.png",
+			"large" : "glade/heroes/karen/portrait-large.png",
+			"small" : "glade/heroes/karen/portrait-small.png"
+		},
+
+		
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "gllv7"
+		}
+	}
+}

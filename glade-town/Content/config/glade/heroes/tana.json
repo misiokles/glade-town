@@ -4,13 +4,13 @@
 		"class" : "glshaper",
 		"texts" :
 		{
-			"name" : "坦娜",
-			"biography" : "坦娜记得自己一直在跑。当掌握了她所需要的魔法，以逃避她在家乡的奴役生活，她很快与禁猎地的居民找到了最后的安全之处。",
+			"name" : "Tana",
+			"biography" : "For as long as she could remember Tana has been on the run. Mastering the magics she needed to escape a life of servitude in her home land, he quickly fled finding at long last safety with the denizens of The Glade",
 			"specialty" :
 			{
-				"description" : "使用攻击加速魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：攻击加速",
-				"name" : "攻击加速"
+				"description" : "Casts Haste with expert effects but not expert range.",
+				"tooltip" : "Spell bonus: Haste",
+				"name" : "Haste"
 			}
 		},
 		"images" :
@@ -29,17 +29,17 @@
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
@@ -59,10 +59,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"haste" : {
+					"addInfo" : 0,
 					"subtype" : "spell.haste",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
 		}			

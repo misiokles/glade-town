@@ -1,0 +1,59 @@
+{
+	"13hanna" :
+	{
+		"class" : "glrunner",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Hanna",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
+				"tooltip" : "Secondary skill bonus: Offence",
+				"name" : "Offence"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "glade/heroes/hanna/spec-small.png",
+			"specialtyLarge" : "glade/heroes/hanna/spec-large.png",
+			"large" : "glade/heroes/hanna/portrait-large.png",
+			"small" : "glade/heroes/hanna/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "gllv1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "gllv2",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "gllv3",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty" : {
+			"secondary" : "offence"
+		}
+	}
+}

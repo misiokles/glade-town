@@ -3,24 +3,23 @@
 	{
 		"town" :
 		{
-			"buildings" : 
+			"buildings" :
 			{
-				"mageguild1" :
+				"mageGuild1" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "1级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
 					"cost" :
 					{
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 0
+					}
 				},
 				"mageGuild2" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "2级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
 					"cost" :
 					{
 						"wood" : 5,
@@ -31,13 +30,12 @@
 						"gems" : 4,
 						"gold" : 1000
 					},
-					"id" : 1,
-					"upgrades" : "mageguild1"
+					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "3级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
 					"cost" :
 					{
 						"wood" : 5,
@@ -48,13 +46,12 @@
 						"gems" : 6,
 						"gold" : 1000
 					},
-					"id" : 2,
 					"upgrades" : "mageGuild2"
 				},
 				"mageGuild4" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "4级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
 					"cost" :
 					{
 						"wood" : 5,
@@ -65,13 +62,12 @@
 						"gems" : 8,
 						"gold" : 1000
 					},
-					"id" : 3,
 					"upgrades" : "mageGuild3"
 				},
 				"mageGuild5" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "5级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
 					"cost" :
 					{
 						"wood" : 5,
@@ -82,191 +78,176 @@
 						"gems" : 10,
 						"gold" : 1000
 					},
-					"id" : 4,
 					"upgrades" : "mageGuild4"
-				},
+				},	
 				"tavern" :
 				{
-					"name" : "酒馆",
-					"description" : "酒馆可提高驻军的士气。",
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
 				},
-				"dock" :
+				"shipyard" :
 				{
-					"name" : "船坞",
-					"description" : "船坞允许你购买船只。",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" :
 					{
 						"wood" : 20,
 						"gold" : 2000
-					},
-					"id" : 6
+					}
 				},
 				"fort" :
-				{					
-                                        "name" : "堡垒",
-					"description" : "堡垒可为你的城镇提供城墙。",
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" :
 					{
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
 				},
 				"citadel" :
 				{
-					"name" : "大本营",
-					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" :
 					{
 						"ore" : 5,
 						"gold" : 2500
 					},
-					"id" : 8,
 					"upgrades" : "fort"
 				},
 				"castle" :
 				{
-					"name" : "城堡",
-					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" :
 					{
+						"gold" : 5000,
 						"wood" : 10,
-						"ore" : 10,
-						"gold" : 5000
+						"ore" : 10
 					},
-					"id" : 9,
 					"upgrades" : "citadel"
 				},
 				"villageHall" :
 				{
-					"name" : "议事堂",
-					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
-					"id" : 10,
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"mode" : "auto"
 				},
 				"townHall" :
 				{
-					"name" : "内政厅",
-					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" :
 					{
 						"gold" : 2500
 					},
-					"id" : 11,
-					"requires" : [ "tavern" ],
+					"requires" : [ "allOf",["tavern"] ],
 					"upgrades" : "villageHall"
 				},
 				"cityHall" :
 				{
-					"name" : "议会",
-					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" :
 					{
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", ["mageguild1"], ["marketplace"], ["blacksmith"] ],
-					"id" : 12,
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
 					"upgrades" : "townHall"
 				},
 				"capitol" :
 				{
-					"name" : "国会",
-					"description" : "国会每天向你提供4000个金币。",
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" :
 					{
 						"gold" : 10000
 					},
-					"id" : 13,
-					"requires" : [ "castle" ],
+					"requires" : ["castle"] ,
 					"upgrades" : "cityHall"
 				},
 				"marketplace" :
 				{
-					"name" : "市场",
-					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 14
+					}
 				},
 				"resourceSilo" :
 				{
-					"description" : "物资仓库每天为你额外提供1宝石。",
-					"name" : "物资仓库",
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 Gems each day.",
 					"cost" :
 					{
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "gems": 1 },
-					"requires" : [ "marketplace" ],
-					"id" : 15
+					"requires" : ["marketplace"],
+					"produce": { "gems": 1 }
 				},
 				"blacksmith" :
 				{
-					"description" : "铁匠铺可向你的军队提供弩车。",
-					"name" : "铁匠铺",
+					"description" : "The Blacksmith provides your armies with Heavy Crossbows.",
+					"name" : "Blacksmith",
+					"warMachine" : "ballista",
 					"cost" :
 					{
 						"wood" : 5,
-						"gold" : 1000
-					},
-					"warMachine" : "ballista",
-					"id" : 16
+						"gold" : 500
+					}
 				},
-				"hordeHalflings" :
+				"horde1" :
 				{
-					"description" : "幸运灯笼使地鼠和魔法地鼠的周产量+10。",
-					"name" : "幸运灯笼",
+					"description" : "The Fortunate Lantern increases weekly production of mouse1s by 10 per week.",
+					"name" : "Fortunate Lantern",
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 18,
-					"upgrades" : "dwelling1"
+					"upgrades" : "dwellingLvl1"
 				},
-				"hordeHalflingsUpgr" :
+				"horde1Upgr" :
 				{
-					"description" : "幸运灯笼使地鼠和魔法地鼠的周产量+10。",
-					"name" : "幸运灯笼",
+					"description" : "The Fortunate Lantern increases weekly production of mouse1 Elders by 10 per week.",
+					"name" : "Fortunate Lantern",
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 19,
-					"upgrades" : "dwellingUpgrade1",
-					"requires" : [ "hordeHalflings" ],
+					"upgrades" : "dwellingUpLvl1",
+					"requires" : [ "horde1" ],
 					"mode" : "auto"	
 				},
-				"rainbow1" :
+				"special1" :
 				{
-					"description" : "彩虹每天为你的王国额外提供250个金币。",
+					"description" : "The Rainbow earns your kingdom 250 gold per day.",
 					"produce" : { "gold" : 250 },
-					"name" : "彩虹",
-
-					"id" : 24
-				},
-				"boat" :
-				{
-					"description" : "船员们正在等待起航。",
-					"name" : "船只",
+					"name" : "Rainbow",
 					"cost" : {
-						"gold" : 1000
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 750
 					},
-					"requires" : [ "dock" ],
-					"id" : 20
 				},
-				"totempole" :
+				"ship" :
 				{
-					"description" : "灌木图腾使来访英雄的力量+1。",
-					"name" : "灌木图腾",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+                    "upgrades" : "shipyard"
+				},
+				"special2" :
+				{
+					"description" : "The Totem Pole increase spell power of visiting hero by +1.",
+					"name" : "Totem Pole",
 					"cost" : {
 						"gems" : 5,
 						"gold" : 1000
@@ -275,84 +256,95 @@
 						"visitMode" : "hero",
 						"rewards" : [
 							{
-								"message" : "@core.genrltxt.582",
-								"primary" : { "spellpower" : 1 }
+								"message" : "The Totem Pole teach you new ways to focus your magical powers (+1 Power)",
+								"primary" : {
+									"spellpower" : 1
+								}
 							}
 						]
 					},
-					"requires" : [ "mageguild1" ],
-					"id" : 21
+					"requires" : [
+						"mageGuild1"
+					]
 				},
-				"grail" :
-				{
-					"description" : "召唤石碑使每周的生物产量提高50%，每天为你的王国额外提供5000个金币。",
-					"name" : "召唤石碑",
-					"id" : 26,
-					"mode" : "grail",
-					"produce": { "gold": 5000 }
+				"grail" : {
+					"description" : "Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day, gives the hero the ability to walk on water and increases the Defense strength of every hero by +10.",
+					"name" : "Summon Stone",
+					"produce" : {
+						"gold" : 5000
+					},
+					"bonuses" : [
+						{
+							"type" : "WATER_WALKING",
+							"val" : 0,
+							"valueType" : "INDEPENDENT_MIN",
+							"propagator" : "PLAYER"
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "defence",
+							"val" : 10,
+							"propagator" : "PLAYER"
+						}
+					]
 				},
-				"dwelling1" :
+				"dwellingLvl1" :
 				{
-					"description" : "宝藏丛林允许你招募地鼠。",
-					"name" : "宝藏丛林",
+					"description" : "Fortune Jungle allows you to recruit Mice.",
+					"name" : "Fortune Jungle",
 					"cost" : {
 						"gold" : 300,
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "fort" ],
-					"id" : 30
+					"requires" : [ "fort" ]
 				},
-				"dwelling2" :
+				"dwellingLvl2" :
 				{
-					"description" : "地穴允许你招募野猪。",
-					"name" : "地穴",
+					"description" : "Cave allows you to recruit Cliff Crawlers.",
+					"name" : "Cave",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "dwelling1" ],
-					"id" : 31
+					"requires" : [ "dwellingLvl1" ]
 				},
-				"dwelling3" :
+				"dwellingLvl3" :
 				{
-					"description" : "魔法师小屋允许你招募魔眼。",
-					"name" : "魔法师小屋",
+					"description" : "Magic Hut allows you to recruit Magic Eyes.",
+					"name" : "Magic Hut",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
 					},
-					"requires" : [ "allOf", ["mageguild1"], ["dwelling2"] ],
-					"id" : 32
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl2"] ]
 				},
-				"dwelling4" :
+				"dwellingLvl4" :
 				{
-					"description" : "灵石花园允许你招募木妖。",
-					"name" : "灵石花园",
+					"description" : "Stone Garden allows you to recruit Druids.",
+					"name" : "Stone Garden",
 					"cost" : {
 						"gems" : 10,
 						"gold" : 2500,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", ["mageguild1"], ["dwelling2"] ],
-					"id" : 33
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl2"] ]
 				},
-				"dwelling5" :
+				"dwellingLvl5" :
 				{
-					"description" : "风魔巢穴允许你招募风魔。",
-					"name" : "风魔巢穴",
+					"description" : "Hatchery allows you to recruit Silver Pegasus.",
+					"name" : "Hatchery",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 15
 					},
-					"requires" : [ "dwelling3" ],
-					"id" : 34
+					"requires" : [ "dwellingLvl3" ]
 				},
-				"dwelling6" :
+				"dwellingLvl6" :
 				{
-					"description" : "蛇蜥穴允许你招募异蛇蜥。",
-					"name" : "蛇蜥穴",
+					"description" : "Dream Garden allows you to recruit Fairy Bears.",
+					"name" : "Dream Garden",
 					"cost" : {
 						"gold" : 4000,
 						"wood" : 5,
@@ -362,108 +354,99 @@
 						"gems" : 5,
 						"mercury" : 3
 					},
-					"requires" : [ "dwelling4" ],
-					"id" : 35
+					"requires" : [ "dwellingLvl4" ]
 				},
-				"dwelling7" :
+				"dwellingLvl7" :
 				{
-					"description" : "乌根森林允许你招募乌根树精。",
-					"name" : "乌根森林",
+					"description" : "Blackroot Forest allows you to recruit Treants.",
+					"name" : "Blackroot Forest",
 					"cost" : {
 						"gold" : 12000,
 						"wood" : 10,
 						"gems" : 10,
 						"mercury" : 10
 					},
-					"requires" : [ "allOf", ["dwelling5"], ["dwelling4"] ],
-					"id" : 36
+					"requires" : [ "allOf", ["dwellingLvl5"], ["dwellingLvl4"] ]
 				},
-				"dwellingUpgrade1" :
+				"dwellingUpLvl1" :
 				{
-					"description" : "高级宝藏丛林允许你招募魔法地鼠。",
-					"name" : "高级宝藏丛林",
+					"description" : "Upg. Fortunate Jungle allows you to recruit Magic Mice.",
+					"name" : "Upg. Fortunate Jungle",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
 					},
-					"id" : 37,
-					"upgrades" : "dwelling1"
+					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpgrade2" :
+				"dwellingUpLvl2" :
 				{
-					"description" : "高级地穴允许你招募狂猪。",
-					"name" : "高级地穴",
+					"description" : "Upg. Cave allows you to recruit Cave Jumpers.",
+					"name" : "Upg. Cave",
 					"cost" : {
 						"gold" : 1200,
 						"ore" : 5
 					},
-					"id" : 38,
-					"upgrades" : "dwelling2"
+					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpgrade3" :
+				"dwellingUpLvl3" :
 				{
-					"description" : "高级魔法师小屋允许你招募厄运之眼。",
-					"name" : "高级魔法师小屋",
+					"description" : "Upg. Magic Hut allows you to recruit Unfortunate Eyes.",
+					"name" : "Upg. Magic Hut",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
 						"crystal" : 3
 					},
-					"id" : 39,
-					"upgrades" : "dwelling3"
+					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpgrade4" :
+				"dwellingUpLvl4" :
 				{
-					"description" : "高级灵石花园允许你招募林妖。",
-					"name" : "高级灵石花园",
+					"description" : "Upg. Stone Garden allows you to recruit High Druids.",
+					"name" : "Upg. Stone Garden",
 					"cost" : {
 						"crystal" : 5,
 						"gold" : 2500,
 						"ore" : 10
 					},
-					"id" : 40,
-					"requires" :  [ "allOf", ["mageguild1"], ["dwelling4"] ],
-					"upgrades" : "dwelling4"
+					"requires" :  [ "allOf", ["mageGuild1"], ["dwellingLvl4"] ],
+					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpgrade5" :
+				"dwellingUpLvl5" :
 				{
-					"description" : "高级风魔巢穴允许你招募风魔王。",
-					"name" : "高级风魔巢穴",
+					"description" : "Upg. Hatchery allows you to recruit Silver Unicorns.",
+					"name" : "Upg. Hatchery",
 					"cost" : {
 						"wood" : 5,
 						"gold" : 2000,
 						"sulfur" : 5
 					},
-					"id" : 41,
 					"requires" : [ "citadel" ],
-					"upgrades" : "dwelling5"
+					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpgrade6" :
+				"dwellingUpLvl6" :
 				{
-					"description" : "高级蛇蜥穴允许你招募王蛇蜥。",
-					"name" : "高级蛇蜥穴",
+					"description" : "Upg. Dream Garden allows you to recruit Mystical Bears.",
+					"name" : "Upg. Dream Garden",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
 						"ore" : 5,
 						"gems" : 5
 					},
-					"id" : 42,
-					"upgrades" : "dwelling6"
+					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpgrade7" :
+				"dwellingUpLvl7" :
 				{
-					"description" : "高级乌根森林允许你招募古棘树精。",
-					"name" : "高级乌根森林",
+					"description" : "Upg. Blackroot Forest allows you to recruit Ancient Treants.",
+					"name" : "Upg. Blackroot Forest",
 					"cost" : {
 						"gems" : 15,
 						"gold" : 20000,
 						"wood" : 15,
 						"mercury" : 10
 					},
-					"id" : 43,
 					"requires" : [ "mageGuild2" ],
-					"upgrades" : "dwelling7"
+					"upgrades" : "dwellingLvl7"
 				}
 			}
 		}

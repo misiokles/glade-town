@@ -1,58 +1,83 @@
 {
 	"glshaper" : {
 		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "glade/battle/heroes/CH22.def", "male" : "glade/battle/heroes/CH22.def" } },
-		"commander" : "glpathfinder",
-		"defaultTavern" : 5,
-		"faction" : "glade",
-		"highLevelChance" : { "attack" : 15, "defence" : 10, "knowledge" : 35, "spellpower" : 40 },
-		"lowLevelChance" : { "attack" : 10, "defence" : 10, "knowledge" : 30, "spellpower" : 50 },
-		"mapObject" : { "templates" : { "default" : { "animation" : "glade/map/AH22_.def" } } },
-		"name" : "创造者",
-		"primarySkills" : { "attack" : 0, "defence" : 0, "knowledge" : 3, "spellpower" : 2 },
-		"secondarySkills" :
-		{
-			"pathfinding"  : 6,
-			"archery"      : 6,
-			"logistics"    : 5,
-			"scouting"     : 2,
-			"diplomacy"    : 2,
-			"navigation"   : 2,
-			"leadership"   : 2,
-			"wisdom"       : 8,
-			"mysticism"    : 3,
-			"luck"         : 4,
-			"ballistics"   : 2,
-			"eagleEye"     : 6,
-			"necromancy"   : 0,
-			"estates"      : 2,
-			"fireMagic"    : 4,
-			"airMagic"     : 6,
-			"waterMagic"   : 6,
-			"earthMagic"   : 5,
-			"scholar"      : 5,
-			"tactics"      : 4,
-			"artillery"    : 1,
-			"learning"     : 4,
-			"offence"      : 4,
-			"armorer"      : 4,
-			"intelligence" : 7,
-			"sorcery"      : 6,
-			"resistance"   : 5,
-			"firstAid"     : 2
+		"animation" : {
+			"battle" : {
+				"female" : "glade/battle/heroes/CH22",
+				"male" : "glade/battle/heroes/CH22"
+			}
 		},
-		"tavern" :
-		{
-			"castle"     : 4,
-			"rampart"    : 0,
-			"tower"      : 6,
-			"inferno"    : 6,
-			"necropolis" : 5,
-			"dungeon"    : 5,
-			"stronghold" : 6,
-			"fortress"   : 6,
-			"conflux"    : 5,
-			"glade"   : 6
+		"commander" : "glpathfinder",
+		"defaultTavern" : 4,
+		"faction" : "glade",
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 10,
+			"knowledge" : 20,
+			"spellpower" : 40
+		},
+		"highLevelChance" : {
+			"attack" : 15,
+			"defence" : 20,
+			"knowledge" : 30,
+			"spellpower" : 35
+		},
+
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "glade/map/AH22_"
+				}
+			}
+		},
+		"name" : "Shaper",
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 0,
+			"knowledge" : 1,
+			"spellpower" : 3
+		},
+		"secondarySkills" : {
+			"airMagic" : 4,
+			"archery" : 1,
+			"armorer" : 2,
+			"artillery" : 3,
+			"ballistics" : 1,
+			"diplomacy" : 5,
+			"eagleEye" : 5,
+			"earthMagic" : 6,
+			"estates" : 5,
+			"fireMagic" : 7,
+			"intelligence" : 6,
+			"leadership" : 3,
+			"learning" : 5,
+			"logistics" : 1,
+			"luck" : 3,
+			"mysticism" : 7,
+			"navigation" : 2,
+			"necromancy" : 0,
+			"offence" : 3,
+			"pathfinding" : 1,
+			"resistance" : 2,
+			"scholar" : 8,
+			"scouting" : 0,
+			"sorcery" : 7,
+			"tactics" : 1,
+			"waterMagic" : 4,
+			"wisdom" : 9,
+			"firstAid" : 4
+		},
+		"tavern" : {
+			"castle" : 5,
+			"conflux" : 7,
+			"glade" : 8,
+			"dungeon" : 6,
+			"fortress" : 3,
+			"inferno" : 4,
+			"necropolis" : 4,
+			"rampart" : 3,
+			"stronghold" : 2,
+			"tower" : 6
 		}
 	}
 }

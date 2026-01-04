@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "纳罕娜",
-			"biography" : "纳罕娜一直心灵手巧。作为一个孩子，她会收集自己可以用的金属和皮革的小型碎片，并为她的娃娃制作精美的微型盔甲套装。作为一名成年人，她通常可以在前线战斗并为她的士兵提供惊人的定制装甲。",
+			"name" : "Nahana",
+			"biography" : "Nahana had always been good with her hands. As a child she would scavenge what little bits of metal and leather she could and fashion amazing suits of miniature armor for her dolls. As an adult she can usually be found on the front lines fighting and supplying her soldiers with amazing custom armor.",
 			"specialty" :
 			{
-				"description" : "在防御术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：防御术",
-				"name" : "防御术"
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "Secondary skill bonus: Armorer",
+				"name" : "Armorer"
 			}
 		},
 
@@ -26,17 +26,17 @@
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
@@ -53,16 +53,8 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"armorer" : {
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : "damageTypeAll",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
-		}
+			"secondary" : "armorer"
+		}		
 	}
 }
+

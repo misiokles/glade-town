@@ -1,16 +1,16 @@
 {
-	"glcoppers" :
+	"glshaper" :
 	{
 		"class" : "glrunner",
 		"texts" :
 		{
-			"name" : "库珀斯",
-			"biography" : "三只手库珀斯总是能够将两块宝石揉在一起，凭空产生第三块宝石。这通常是通过当商人的注意力转移到别的地方的时候，消除刚卖给他的同一块宝石来实现的。",
+			"name" : "Coppers",
+			"biography" : "Coppers the pickpocket has always been able to rub two gems together in order to produce a third. This is usually accomplished by removing the very same gem he just sold to a merchant the moment his attention shifted onto something else.",
 			"specialty" :
 			{
-				"description" : "为王国每天额外提供1宝石。",
-				"tooltip" : "每天+1宝石",
-				"name" : "+1宝石"
+				"description" : "Increases kingdom's gem production by 1 per day.",
+				"tooltip" : "Resource bonus: gems",
+				"name" : "+1 Gem"
 			}
 		},
 
@@ -21,38 +21,30 @@
 			"large" : "glade/heroes/coppers/portrait-large.png",
 			"small" : "glade/heroes/coppers/portrait-small.png"
 		},
-
+        "spellbook": [ "magicArrow" ],
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "basic",
-				"skill" : "logistics"
-			},
-			{
-				"level" : "basic",
-				"skill" : "leadership"
-			}
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "scholar", "level": "basic" }
 		],
-		
 		"specialty" : {
 			"bonuses" : {
 				"gems" : {

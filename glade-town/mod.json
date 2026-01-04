@@ -1,15 +1,23 @@
 {
 	"name" : "Glade",
-	"description" : "New town made by Karen modified by Lord pazuzu1, fixed by Randjan",
-	"author" : "Karen, Lord pazuzu1, Randjan",
+	"description" : "New town made by Karen modified by Lord pazuzu1, fixed by ROFL team",
+	
+	"author" : "Karen, Lord pazuzu1, ROFL team",
 	"contact" : "unknown",
-	"version" : "1.0",
+	"version" : "1.0.1",
 	"modType" : "Town",
-	"language": "chinese",
-	"chinese" : {
-		"name" : "禁猎地",
-		"description" : "由Karen制作Lord pazuzu1修改的新城镇，Randjan进行了修正。"
+	"changelog" :
+    {
+		"1.0.1"   : [ "Works with vcmi-1.7" ]
+    },	
+	"russian" : {
+		"name" : "Поляна",
+		"description" : "Новый город Поляна",
+		"translations" : [
+			"translation/glade/russian.json"
+		]
 	},
+
 	"factions" :
 	[
 		"config/glade/town/buildings.json",
@@ -19,23 +27,30 @@
 		"config/glade/town/structures.json",
 		"config/glade/town/puzzle.json"
 	],
-	
+		"spells" : 
+		
+	[
+		"config/glade/spells/stunAbility",
+		
+	],
 	"creatures" :
 	[
-		"config/glade/creatures/mouse1.json",
-		"config/glade/creatures/mouse2.json",
-		"config/glade/creatures/boar1.json",
-		"config/glade/creatures/boar2.json",
-		"config/glade/creatures/pazuzu1.json",
-		"config/glade/creatures/pazuzu2.json",
-		"config/glade/creatures/cockatrice1.json",
-		"config/glade/creatures/cockatrice2.json",
-		"config/glade/creatures/halcyon1.json",
-		"config/glade/creatures/halcyon2.json",
-		"config/glade/creatures/serpentine1.json",
-		"config/glade/creatures/serpentine2.json",
-		"config/glade/creatures/treant1.json",
-		"config/glade/creatures/treant2.json",
+		"config/glade/creatures/lv1.json",
+		"config/glade/creatures/lv1up.json",
+		"config/glade/creatures/lv2n.json",
+		"config/glade/creatures/lv2nup.json",
+		"config/glade/creatures/lv2.json",
+		"config/glade/creatures/lv2up.json",
+		"config/glade/creatures/lv3.json",
+		"config/glade/creatures/lv3up.json",
+		"config/glade/creatures/lv4.json",
+		"config/glade/creatures/lv4up.json",
+		"config/glade/creatures/lv5.json",
+		"config/glade/creatures/lv5up.json",
+		"config/glade/creatures/lv6.json",
+		"config/glade/creatures/lv6up.json",
+		"config/glade/creatures/lv7.json",
+		"config/glade/creatures/lv7up.json",
 		"config/glade/creatures/pathfinder.json"
 	],
 	
@@ -50,24 +65,26 @@
 
 	"heroes" :
 	[
-		"config/glade/heroes/muggins.json",
-		"config/glade/heroes/liam.json",
-		"config/glade/heroes/nahana.json",
-		"config/glade/heroes/tim.json",
 		"config/glade/heroes/coppers.json",
-		"config/glade/heroes/zach.json",
-		"config/glade/heroes/nicole.json",
-		"config/glade/heroes/tavish.json",
-		"config/glade/heroes/shae.json",
-		"config/glade/heroes/meila.json",
-		"config/glade/heroes/priscilla.json",
-		"config/glade/heroes/zarm.json",
-		"config/glade/heroes/wendil.json",
+		"config/glade/heroes/hanna.json",
+		"config/glade/heroes/julian.json",
+		"config/glade/heroes/karen.json",
+		"config/glade/heroes/liam.json",
 		"config/glade/heroes/linda.json",
-		"config/glade/heroes/wren.json",
+		"config/glade/heroes/meila.json",
+		"config/glade/heroes/muggins.json",
+		"config/glade/heroes/nahana.json",
+		"config/glade/heroes/nicole.json",
+		"config/glade/heroes/priscilla.json",
+		"config/glade/heroes/shae.json",
 		"config/glade/heroes/tana.json",
-		"config/glade/classes/campaignHeroes.json"
+		"config/glade/heroes/tavish.json",
+		"config/glade/heroes/tim.json",
+		"config/glade/heroes/wendil.json",
+		"config/glade/heroes/wildhayen.json",
+		"config/glade/heroes/wren.json",
+		"config/glade/heroes/zach.json",
+		"config/glade/heroes/zarm.json"
 	],
-	"objects" : [ "config/glade/dwellings.json" ],
-	"spells" : [ "config/glade/spells/moat.json" ]
+	"objects" : [ "config/glade/dwellings.json" ]	
 }

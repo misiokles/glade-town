@@ -5,10 +5,11 @@
 		{
 			"siege" :
 			{
-				"shooter" : "glmouse1",
+				"shooter" : "gllv4",
 				"imagePrefix" : "glade/siege/sgcv",
-				"towerIconSmall" : "glade/icons/towerSmall",
-				"towerIconLarge" : "glade/icons/towerLarge",
+				"towerIconSmall" : "glade/icons/arrowtowersmall",
+				"towerIconLarge" : "glade/icons/arrowtowerlarge",
+				
 				"gate" :
 				{
 					"arch" : { "x" : 486, "y" : 232 },

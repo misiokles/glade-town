@@ -1,0 +1,69 @@
+{
+	"gllv6up":
+	{
+		"name" :
+		{
+			"plural" : "Mystical Bears",
+			"singular" : "Mystical Bear"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "glade",
+		"aiValue" : 2390,
+		"attack" : 18,
+		"cost" :
+		{
+			"gold" : 1150
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 16
+		},
+		"defense" : 18,
+		"fightValue" : 2004,
+		"graphics" :
+		{
+			"animation" : "glade/battle/creatures/lv6up.DEF",
+			"map" : "glade/map/lv6up.def",
+			"iconSmall" : "glade/iconsSmall/lv6up.bmp",
+			"iconLarge" : "glade/iconsBig/lv6up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		"sound" :
+		{
+			"attack" : "glade/S208ATTK.wav",
+			"defend" : "glade/S208DFND.wav",
+			"killed" : "glade/S208KILL.wav",
+			"move" : "OGRMMOVE.wav",
+			"wince" : "glade/S208WNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+			"regenerates" :
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 30
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			}
+		}
+	}
+}

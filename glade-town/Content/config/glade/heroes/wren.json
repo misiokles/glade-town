@@ -4,13 +4,13 @@
 		"class" : "glshaper",
 		"texts" :
 		{
-			"name" : "五仁",
-			"biography" : "五仁是一名商人般的战士，在禁猎地的战役前线找到了她的号召和财富。",
+			"name" : "Wren",
+			"biography" : "Wren is a warrior merchant who has found her calling and fortune on the front lines of The Glades Battles.",
 			"specialty" :
 			{
-				"description" : "为王国每天额外提供350个金币。",
-				"tooltip" : "每天+350个金币",
-				"name" : "+350个金币"
+				"tooltip" : "+350 Gold per day",
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
 			}
 		},
 
@@ -21,26 +21,22 @@
 			"large" : "glade/heroes/wren/portrait-large.png",
 			"small" : "glade/heroes/wren/portrait-small.png"
 		},
-
-		"spellbook" :
-		[
-			"viewEarth"
-		],
+        "spellbook": [ "magicArrow" ],
 
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}

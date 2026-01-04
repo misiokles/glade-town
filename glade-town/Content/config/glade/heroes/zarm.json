@@ -4,14 +4,14 @@
 		"class" : "glshaper",
 		"texts" :
 		{
-			"name" : "扎姆",
-			"biography" : "扎姆是一个可怕的男人，只要看着他，就能让人在恐惧的虚弱中萎缩。",
+			"name" : "Zarm",
+			"biography" : "Zarm is a fearsome man able to cause a man to shrink away in debilitating fear just by looking at him.",
 
 			"specialty" :
 			{
-				"description" : "使用虚弱无力魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：虚弱无力",
-				"name" : "虚弱无力"
+				"description" : "Casts Weakness with expert effects but not expert range.",
+				"tooltip" : "Spell bonus: Weakness",
+				"name" : "Weakness"
 			}
 		},
 
@@ -31,17 +31,17 @@
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 30,
 				"min" : 20
 			},
 			{
-				"creature" : "glboar1",
+				"creature" : "gllv2",
 				"max" : 10,
 				"min" : 8
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 6,
 				"min" : 4
 			}
@@ -60,10 +60,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"weakness" : {
+					"addInfo" : 0,
 					"subtype" : "spell.weakness",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
 		}		

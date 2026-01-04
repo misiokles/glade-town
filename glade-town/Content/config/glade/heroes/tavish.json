@@ -4,13 +4,13 @@
 		"class" : "glrunner",
 		"texts" :
 		{
-			"name" : "塔维什",
-			"biography" : "塔维什在丛林中被强盗逼入绝境，他的全家在穿行树林时都被杀害。当地的风魔出手相救，此后他越来越了解它们的交流方式，并开始花时间与他的“羊群”守卫森林小径。",
+			"name" : "Tavish",
+			"biography" : "Tavish was left for dead in the jungle by bandits who had wiped out his entire family while they traveled through the woods. Raised by the local Pazuzus he grew to understand their methods of communication and has since spent his time with his flock guarding the forest paths.",
 			"specialty" :
 			{
-				"description" : "达到3级以后提高魔眼或厄运之眼的攻击力与防御力。",
-				"tooltip" : "生物强化：魔眼",
-				"name" : "魔眼"
+				"description" : "Increases Speed of any Magic Eyes or Misfortune Eyes by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
+				"tooltip" : "Creature bonus: Magic Eye",
+				"name" : "Magic Eyes"
 			}
 		},
 
@@ -25,17 +25,17 @@
 		"army" :
 		[
 			{
-				"creature" : "glmouse1",
+				"creature" : "gllv1",
 				"max" : 20,
 				"min" : 15
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 7,
 				"min" : 4
 			},
 			{
-				"creature" : "glpazuzu1",
+				"creature" : "gllv3",
 				"max" : 7,
 				"min" : 4
 			}
@@ -45,7 +45,7 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "logistics"
+				"skill" : "resistance"
 			},
 			{
 				"level" : "basic",
@@ -53,7 +53,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "glpazuzu1"
+			"creature" : "gllv3"
 		}			
 	}
 }

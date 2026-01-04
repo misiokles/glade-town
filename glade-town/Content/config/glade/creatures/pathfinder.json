@@ -3,73 +3,71 @@
 	{
 		"name" :
 		{
-			"plural" : "探索者",
-			"singular" : "探索者"
+			"plural" : "Ancient Druids",
+			"singular" : "Ancient Druids"
 		},
 		"advMapAmount" :
 		{
-			 "min" : 16,
-			 "max" : 25
+			"max" : 16,
+			"min" : 10
 		},
-		"faction" : "neutral",
+		"faction" : "glade",
+		"attack" : 7,
 		"level" : 0,
-		"special" : true,
-		"attack" : 5,
-		"defense" : 5,
-		"damage" :
-		{
-			 "min" : 10,
-			 "max" : 10
-		},
-		"growth" : 9,
-		"hasDoubleWeek": false,
-		"hitPoints" : 50,
-		"speed" : 5,
-		"shots" : 24,
 		"cost" :
 		{
-			"gold" : 140
+			"gold" : 420
 		},
-		"fightValue" : 1000,
-		"aiValue" : 1000,
+		"damage" :
+		{
+			 "min" : 14,
+			 "max" : 17
+		},
+		"defense" : 7,
 		"graphics" :
 		{
-			"animation" : "glade/battle/creatures/pathfinder.def",
-//			"map" : "glade/map/pathfinder.def",
-			"iconSmall" : "glade/iconsSmall/pathfinder.bmp",
-			"iconLarge" : "glade/iconsBig/pathfinder.bmp",
+			"animation" : "glade/battle/creatures/commander.def",
+			"map" : "glade/map/lv4up.def",
+			"iconSmall" : "glade/iconsSmall/commander.bmp",
+			"iconLarge" : "glade/iconsBig/commander.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
-				"walk" : 1,
-				"attack" : 1,
+				"walk" : 1.70,
+				"attack" : 1.25,
 				"idle" : 10
 			},
 			"missile" :
 			{
-				"projectile" : "PLCBOWX.DEF",
-				"attackClimaxFrame" : 7,
+				"projectile" : "glade/battle/creatures/projectile/shot208.DEF",
 				"offset" :
 				{
-					"upperX" : 38,
-					"upperY" : -65,
-					"middleX" : 36,
-					"middleY" : -59,
-					"lowerX" : 21,
-					"lowerY" : -50
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			}
-		},	
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			},
+		},
+		"growth" : 1,
+		"hitPoints" : 50,
+		"speed" : 5,
+		"shots" : 24,
+		"fightValue" : 5272,
+		"aiValue" : 5931,
 		"sound" :
 		{
-			"attack": "ALIZATTK.wav",
-			"defend": "ALIZDFND.wav",
-			"killed": "ALIZKILL.wav",
-			"move": "ALIZMOVE.wav",
-			"shoot": "ALIZSHOT.wav",
-			"wince": "ALIZWNCE.wav"
-         },
+			"attack" : "glade/S204ATTK.wav",
+			"defend" : "glade/S204DFND.wav",
+			"killed" : "glade/S204KILL.wav",
+			"move" : "glade/S204MOVE.wav",
+			"wince" : "glade/S204WNCE.wav",
+			"shoot" : "glade/S204SHOT.wav"
+		},
 		"abilities" :
 		{
 		    "canShoot" :
@@ -101,10 +99,6 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bless",
 				"val" : 3
-			},
-			"noMeleePenalty" :
-			{
-				"type" : "NO_MELEE_PENALTY"
 			}
 	    }
 	}
