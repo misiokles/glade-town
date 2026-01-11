@@ -53,7 +53,7 @@
     },
     "doubleWide" : true,
 	"growth" : 1,
-	"hitPoints" : 200,
+	"hitPoints" : 180,
     "level": 7,
 	"shots": 8,
     "upgrades":
@@ -79,17 +79,16 @@
 			{
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"immuneToMind" : 
+			"earthImmunity" :
 			{
-				"type" : "MIND_IMMUNITY"
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "earth",
+				"description" : "{Negative earth spells immunity}\nUnit is immune to all negative earth spells"
 			},
-			"stun" :
-			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.stunAbility",
-				"val" : 25,
-				"addInfo" : [2,2]
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
 			}
-	    }
+		}
 	}
 }

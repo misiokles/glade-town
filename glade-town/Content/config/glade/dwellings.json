@@ -7,7 +7,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-1.def",
-						"mask" : [ "VVVV", "VVBB", "VVBA" ],
+						"mask" : [ "VVV", "VBV", "VAB" ],
 					}
 				}
 			},
@@ -17,7 +17,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-2.def",
-						"mask" : [ "VVVV", "VVBB", "VVBA" ],
+						"mask" : [ "VVV", "VBB", "VAB" ],
 
 					}
 				}
@@ -49,7 +49,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "VBA" ],
+						"mask" : [ "VVV", "VVV", "VAB" ],
 					}
 				}
 			},
@@ -60,7 +60,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-6.def",
-						"mask" : [ "VVVV", "VVBB", "VVBA" ],
+						"mask" : [ "VVV", "VVV", "VAB" ],
 					}
 				}
 			},
@@ -71,7 +71,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "glade/adventure-map/dwelling-7.def",
-						"mask" : [ "VVVV", "VVBB", "VVAB" ],
+						"mask" : [ "VVV", "VVV", "VAB" ],
 					}
 				}
 			}

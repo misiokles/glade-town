@@ -4,10 +4,11 @@
 	
 	"author" : "Karen, Lord pazuzu1, ROFL team",
 	"contact" : "unknown",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"modType" : "Town",
 	"changelog" :
     {
+		"1.0.2"   : [ "Some fixes for external dwellings" ]
 		"1.0.1"   : [ "Works with vcmi-1.7" ]
     },	
 	"russian" : {

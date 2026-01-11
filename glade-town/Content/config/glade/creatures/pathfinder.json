@@ -13,7 +13,6 @@
 		},
 		"faction" : "glade",
 		"attack" : 7,
-		"level" : 0,
 		"cost" :
 		{
 			"gold" : 420
@@ -55,10 +54,10 @@
 		},
 		"growth" : 1,
 		"hitPoints" : 50,
-		"speed" : 5,
 		"shots" : 24,
 		"fightValue" : 5272,
 		"aiValue" : 5931,
+        "level": 7,		
 		"sound" :
 		{
 			"attack" : "glade/S204ATTK.wav",
@@ -68,6 +67,7 @@
 			"wince" : "glade/S204WNCE.wav",
 			"shoot" : "glade/S204SHOT.wav"
 		},
+		"speed" : 8,
 		"abilities" :
 		{
 		    "canShoot" :

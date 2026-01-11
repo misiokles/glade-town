@@ -10,7 +10,7 @@
     },
     "faction": "glade",
     "aiValue": 7168,
-    "attack": 23,
+    "attack": 21,
     "cost": {
       "gold": 3500,
       "gems": 2
@@ -19,7 +19,7 @@
       "max": 50,
       "min": 35
     },
-    "defense": 28,
+    "defense": 24,
     "fightValue": 5571,
     "graphics": {
     "animation" : "glade/battle/creatures/lv7up.def",
@@ -48,7 +48,7 @@
     },
     "doubleWide": true,
     "growth": 1,
-    "hitPoints": 300,
+    "hitPoints": 250,
     "level": 7,
     "shots": 12,
     "sound": {
@@ -65,26 +65,26 @@
 			{
 				"type" : "SHOOTER"
 			},
-			"canShootWalls" :
-			{
-				"type" : "CATAPULT",
-				"subtype" : "spell.cyclopsShot"
-			},
 			"noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"immuneToMind" : 
+			"earthImmunity" :
 			{
-				"type" : "MIND_IMMUNITY"
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "earth",
+				"description" : "{Negative earth spells immunity}\nUnit is immune to all negative earth spells"
 			},
 	     	"stun" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.stunAbility",
-				"val" : 35,
-				"addInfo" : [2,2]
+				"val" : 65
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
 			}
-	    }
+		}
 	}
 }
